@@ -14,6 +14,9 @@ const NavBar = () => (
           About
         </a>
       </li>
+      <li className="nav-item scoreboard">
+        <div className="nav-link">Score:</div>
+      </li>
     </ul>
   </nav>
 );

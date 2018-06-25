@@ -8,7 +8,7 @@ const Header = () => (
       className="logo"
     />
     <h1>SUPERHERO MATCH</h1>
-    <p>Enjoy the Game</p>
+    {/* <p>Enjoy the Game</p> */}
   </div>
 );
 
