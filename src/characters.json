@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "name": "Ironman",
+    "image": "http://marveluniverselive.net/images/ironimage-man.png",
+    "occupation": "Fry Cook",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Spiderman",
+    "image": "https://hachettepartworks.com/marvelmachines/wp-content/themes/marvelmachines/im/home-intro-character.png",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 3,
+    "name": "Captain America",
+    "image": "https://i.pinimg.com/originals/3b/59/c9/3b59c9f96c5fd2f0f8fb266abf21f5e0.png",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 3,
+    "name": "Hulk",
+    "image": "https://pre00.deviantart.net/5bbd/th/pre/f/2016/094/d/c/marvel_avengers_alliance_2_hulk_by_steeven7620-d9xip92.png",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 3,
+    "name": "Wolverine",
+    "image": "https://vignette.wikia.nocookie.net/fantendo/images/d/d9/Wolverinefull.png/revision/latest?cb=20151109062632",
+    "occupation": "",
+    "location": ""
+  }
+]

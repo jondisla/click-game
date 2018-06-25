@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Characters.css";
+import "./CardsContainer.css";
 
-const Characters = () => (
+const CardsContainer = () => (
   <div className="container">
     <div className="containCard card bg-primary|secondary|success|danger|warning|info|light|dark|link">
       <img className="card-img-top" src="holder.js/100px180/" alt="" />
@@ -13,4 +13,4 @@ const Characters = () => (
   </div>
 );
 
-export default Characters;
+export default CardsContainer;

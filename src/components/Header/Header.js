@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Box.css";
+import "./Box.css";
 
 const Header = () => (
   <div className="header">

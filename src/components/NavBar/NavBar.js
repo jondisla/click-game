@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/NavBar.css";
+import "./NavBar.css";
 
 const NavBar = () => (
   <nav className="navbar navbar-expand nav" style={{ background: "black" }}>
