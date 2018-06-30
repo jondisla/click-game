@@ -13,7 +13,7 @@ const Box = props => {
       <img
         className=" imgs  card-img-top img-fluid"
         src={props.image}
-        // alt={props.name}
+      // alt={props.name}
       />
 
       <div className="card-body">
