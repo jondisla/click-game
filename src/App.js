@@ -2,12 +2,12 @@ import React from "react";
 import NavBar from "./components/NavBar/NavBar";
 import Box from "./components/Box/Box";
 import characters from "./characters.json";
+import "./index.css"
 
 const App = () => (
   <div>
     <NavBar />
-    {/* <CardsContainer /> */}
-    <div className="d-flex flex-wrap flex-row justify-content-center col-lg-10 mx-auto">
+    <div className="content">
       {characters
         .sort(() => 0.6 - Math.random())
         .map(x => (
@@ -20,7 +20,7 @@ const App = () => (
           />
         ))}
     </div>
-  </div>
+  </div >
 );
 
 export default App;

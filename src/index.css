@@ -4,3 +4,8 @@ body {
     font-family: sans-serif;
     /* background: #ff3d3d; */
 }
+
+.content {
+    position: absolute;
+    margin-left: 15%;
+}
