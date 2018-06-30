@@ -2,8 +2,8 @@
     "id": 1,
     "name": "Ironman",
     "image": "http://marveluniverselive.net/images/ironimage-man.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "occupation": "",
+    "location": ""
   },
   {
     "id": 2,
@@ -20,16 +20,65 @@
     "location": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Hulk",
     "image": "https://pre00.deviantart.net/5bbd/th/pre/f/2016/094/d/c/marvel_avengers_alliance_2_hulk_by_steeven7620-d9xip92.png",
     "occupation": "",
     "location": ""
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Wolverine",
     "image": "https://vignette.wikia.nocookie.net/fantendo/images/d/d9/Wolverinefull.png/revision/latest?cb=20151109062632",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 6,
+    "name": "Black Panther",
+    "image": "http://www.brickstolife.com/wp-content/uploads/2017/06/A.-Agent-Venom.png",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 7,
+    "name": "Deadpool",
+    "image": "https://vignette.wikia.nocookie.net/avengersalliance/images/8/81/Deadpool-Classic-iOS.png/revision/latest?cb=20131019191848",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 8,
+    "name": "Thanos",
+    "image": "https://vignette.wikia.nocookie.net/marveldatabase/images/0/03/Thanos_%28Earth-12131%29_from_Marvel_Avengers_Alliance_0002.png/revision/latest?cb=20131013024612",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 9,
+    "name": "Hela",
+    "image": "https://i.pinimg.com/originals/e3/2f/38/e32f38dda140fbf785e36c62f56af6b3.png",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 10,
+    "name": "Thor",
+    "image": "https://vignette.wikia.nocookie.net/disney-infinity/images/f/f7/Avengers-_Age_of_Ultron_Thor_Portrait_Art.png/revision/latest?cb=20150709030950",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 11,
+    "name": "Dr. Doom",
+    "image": "https://qph.fs.quoracdn.net/main-qimg-494817850c80ac949e215f748443465a",
+    "occupation": "",
+    "location": ""
+  },
+  {
+    "id": 12,
+    "name": "Black Widow",
+    "image": "http://images.sgcafe.net/2018/04/Black_Widow_Earth-2992.png",
     "occupation": "",
     "location": ""
   }

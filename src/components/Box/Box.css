@@ -4,12 +4,41 @@
     left: 0;
 }
 
-.bg {
-    margin-top: 80px;
-    height: 35em;
-    background: url("../../images/backdrop.png")no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+h6 {
+    text-align: center;
+}
+
+.cardStyle {
+    display: inline-block;
+    border: 0;
+    width: 250px;
+    height: 180px;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.cardStyle:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.imgs {
+    margin: 10px 0px 0px 80px;
+    width: 110px;
+    height: 125px;
 }

@@ -1,14 +1,25 @@
 import React from "react";
 import "./Box.css";
 
-const Box = () => (
-  <div className="card bg bg-primary|secondary|success|danger|warning|info|light|dark|link">
-    <img className="card-img-top" src="holder.js/100px180/" alt="" />
-    <div className="card-body">
-      {/* <h4 className="card-title">Title</h4>
-      <p className="card-text">Text</p> */}
-    </div>
-  </div>
-);
+const Box = props => {
+  return (
+    <div className="cardStyle card bg-light" onClick={() => props.id}>
+      {/* <Characters
+        name={characters[0].name}
+        image={characters[0].image}
+        occupation={characters[0].occupation}
+        location={characters[0].location}
+      /> */}
+      <img
+        className=" imgs  card-img-top img-fluid"
+        src={props.image}
+        // alt={props.name}
+      />
 
+      <div className="card-body">
+        <h6 className="card-title">{props.name}</h6>
+      </div>
+    </div>
+  );
+};
 export default Box;
