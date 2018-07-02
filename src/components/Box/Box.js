@@ -3,7 +3,7 @@ import "./Box.css";
 
 const Box = props => {
   return (
-    <div className="cardStyle card bg-light" onClick={() => props.id}>
+    <div className="cardStyle card bg-light" onClick={e => props.id}>
       {/* <Characters
         name={characters[0].name}
         image={characters[0].image}
@@ -13,11 +13,14 @@ const Box = props => {
       <img
         className=" imgs  card-img-top img-fluid"
         src={props.image}
-      // alt={props.name}
+        alt={props.name}
       />
 
       <div className="card-body">
-        <h6 className="card-title">{props.name}</h6>
+        <h6 className="card-title">
+          {props.name}
+          {props.id}
+        </h6>
       </div>
     </div>
   );

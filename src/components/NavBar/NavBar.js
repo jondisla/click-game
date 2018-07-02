@@ -6,6 +6,8 @@ const NavBar = () => (
     <img
       src="https://vignette.wikia.nocookie.net/marvelcomicsfanon/images/2/21/Marvel-comics-logo-vector.png/revision/latest?cb=20170417155426"
       className="logo"
+      alt="logo"
+      style={{ width: "80px" }}
     />
     <ul className="nav navbar-nav">
       <li className="nav-item active">

@@ -10,13 +10,13 @@ const App = () => (
     <div className="content">
       {characters
         .sort(() => 0.6 - Math.random())
-        .map(x => (
+        .map(char => (
           <Box
-            name={x.name}
-            image={x.image}
-            location={x.location}
-            occupation={x.occupation}
-            id={x.id}
+            name={char.name}
+            image={char.image}
+            location={char.location}
+            occupation={char.occupation}
+            id={char.id}
           />
         ))}
     </div>
