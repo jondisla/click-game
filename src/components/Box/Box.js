@@ -2,17 +2,12 @@ import React from "react";
 import "./Box.css";
 
 const Box = props => {
+  // console.log(props)
   return (
     <div
       className="cardStyle card bg-light"
-      onClick={() => props.chosen(props.id)}
+      onClick={() => props.randomcharacter()}
     >
-      {/* <Characters
-        name={characters[0].name}
-        image={characters[0].image}
-        occupation={characters[0].occupation}
-        location={characters[0].location}
-      /> */}
       <img
         className=" imgs  card-img-top img-fluid"
         src={props.image}
